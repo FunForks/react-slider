@@ -2,14 +2,17 @@
  * App.jsx
  */
 
+import { SliderProvider } from './contexts/SliderContext'
+import { Header } from './components/Header'
 import { Slider } from './components/Slider'
 
 function App() {
+
   return (
-    <>
-      <h1>React Slider</h1>
+    <SliderProvider>
+      <Header />
       <Slider />
-    </>
+    </SliderProvider>
   );
 }
 
