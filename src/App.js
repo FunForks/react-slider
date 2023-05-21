@@ -12,6 +12,12 @@ function App() {
     <SliderProvider>
       <Header />
       <Slider />
+      <hr />
+      <a
+        href="https://github.com/FunForks/react-slider"
+      >
+        GitHub Repository
+      </a>
     </SliderProvider>
   );
 }
